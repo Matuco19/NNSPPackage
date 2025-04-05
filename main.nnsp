@@ -1,0 +1,5 @@
+test = 19
+
+function:name(arg)[
+    print("Your name is: " + arg)
+]

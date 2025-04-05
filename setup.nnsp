@@ -1,0 +1,7 @@
+import:setup
+
+package_urls = {"example": "https://example.com"}
+
+package_authors = ["Matuco19", "author2"]
+
+setup.set("Package Name", package_authors, "Package Short Description", "Package Long Description", "Package Keywords", package_urls, "./main.nnsp")
