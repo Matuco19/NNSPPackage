@@ -1,7 +1,7 @@
 import:setup
 
-package_urls = {"example": "https://example.com"}
+package_urls = {"example": "https://example.com", "example2": "https://example2.com"}
 
 package_authors = ["Matuco19", "author2"]
-
-setup.set("sample", package_authors, "Package Short Description", "Package Long Description", "Package Keywords", package_urls, "./main.nnsp", "1.1.0")
+long_desc = open("README.md")
+setup.set("sample", package_authors, "Package Short Description", long_desc, "Package Keywords", package_urls, "./main.nnsp", "1.1.0")
