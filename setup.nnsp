@@ -4,4 +4,4 @@ package_urls = {"example": "https://example.com", "example2": "https://example2.
 
 package_authors = ["Matuco19", "author2"]
 long_desc = open("README.md")
-setup.set("sample", package_authors, "Package Short Description", long_desc, "Package Keywords", package_urls, "./main.nnsp", "1.1.0")
+setup.set("sample", package_authors, "Package Short Description", long_desc, "Package Keywords", package_urls, "./main.nnsp", "1.2.0")

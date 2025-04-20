@@ -2,42 +2,29 @@
 
 A sample package to test NNSP package manager
 
-## Why?
+## Getting Started
 
-Testing ion package manager and ion website
+To get started with this package, you need to install the NNSP package manager. You can do this by running the following command:
 
-## Tests
-
-Markdown tests:
-
-[link](matuco19.com)
-
-- bulleted list
-- bulleted list
-- bulleted list
-- bulleted list
-
-> Quotes
-> 1
-> 3
-> 4
-
-### h3
-
-#### h4
-
-##### h5
-
-###### h6
-
-```rs
-println!("code block test");
+```bash
+ion link sample
 ```
 
-test `here`
+## Usage
 
-[![img](https://github.com/Matuco19.png)](https://github.com/Matuco19)
+Once you have installed the package, you can use it in your project. Here is an example of how to use the package:
 
-**bold**
-*ittalic*
-~~line~~
+```nnsp
+import:sample as sm
+
+sm.name("John Doe")
+print(sm.test)
+```
+
+## Why this package?
+
+This package is a sample package to test the NNSP package manager. It is a simple package that contains a few functions and variables to demonstrate how to create and use a package in NNSP.
+
+## Credits
+
+This package was created by [Matuco19](https://github.com/Matuco19) and NNSP is maintained by [Matuco19](https://github.com/Matuco19). If you have any questions or suggestions, feel free to reach out to me.
