@@ -1,5 +1,12 @@
+import:sample2 as sm2
+
 test = 19
 
 function:name(arg)[
     print("Your name is: " + arg)
+]
+
+function:person(name, age)[
+    name(name)
+    sm2.age(age)
 ]
